@@ -1,0 +1,42 @@
+.folderView {
+  padding: 2% 2%;
+}
+
+.folderIcon {
+  font-size: 50px;
+  color: #eca900;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.folderIcon:hover {
+  color: gray;
+  transition: 0.3s;
+}
+
+.folderName {
+  font-size: 20px;
+  color: gray;
+  margin-top: -5%;
+  overflow: hidden;
+  width: 100%;
+  o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  transition: color 0.3s;
+}
+
+.newFolderIcon {
+  font-size: 50px;
+  color: blue;
+  cursor: pointer;
+}
+
+.newFolderIcon:hover {
+  color: rgb(218, 211, 211);
+  transition: color 0.3s;
+}
+
+.folderName:hover {
+  color: #495159;
+  transition: color 0.3s;
+}
